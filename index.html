@@ -1,24 +1,238 @@
-<!-- 
-HTML Template for Missions, delete and replace with mission HTML
--->
+
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Gnius Club</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Playbook - Preescolar Sesión 3</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-  <h1>
-    Playbook HTML Placeholder Template
-  </h1>
-  <p>
-    Replace with actual playbook code.
-  </p>
-  <script src="script.js"></script>
+<header>
+<h1><span class="book-icon">📋</span> <strong>Playbook Sesión 3 Kínder 1</strong></h1>
+<div class="header-widgets">
+<div class="timer-container">
+<span id="timer">⏱️ 00:00</span>
+<button id="startStop">Start</button>
+<button id="reset">Reset</button>
+</div>
+<div class="theme-toggle">
+<i class="fas fa-sun"></i>
+<label class="switch">
+<input type="checkbox" id="theme-toggle-input">
+<span class="slider round"></span>
+</label>
+<i class="fas fa-moon"></i>
+</div>
+</div>
+</header>
+<div class="main-container">
+<aside class="activity-list">
+<h2>Actividades</h2>
+<ul>
+<li><a href="#activity-0">📝</a></li>
+<li><a href="#activity-1">1</a></li>
+<li><a href="#activity-2">2</a></li>
+<li><a href="#activity-3">3</a></li>
+<li><a href="#activity-4">4</a></li>
+</ul>
+<div class="sidebar-info">
+<p>💡 Cada actividad está diseñada para ser lúdica y captar la atención de los más pequeños.</p>
+<p>⏱️ Los tiempos son una guía. Sé flexible y adáptate al ritmo del grupo.</p>
+</div>
+</aside>
+<main class="content">
+<div class="progress-bar">
+<div class="progress"></div>
+</div>
+<button id="toggle-dialogues">Mostrar todos los diálogos</button>
+<div class="activity-card" id="activity-0">
+<h2><span class="book-icon">📝</span> De un Vistazo: Misión: ¡Programando la Aventura en la Comunidad!</h2>
+<p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para esta aventura de aprendizaje.</p>
+<div class="overview-table-container">
+<table>
+<thead>
+<tr>
+<th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+<th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<strong>Objetivos de Aprendizaje:</strong>
+<ul>
+<li>Crear un "programa" verbal de 3-4 pasos para una tarea.</li>
+<li>Reforzar la necesidad de precisión y secuencia.</li>
+<li>Desarrollar la planificación y la comunicación.</li>
+</ul>
+<strong>Secuencia Didáctica de la Misión:</strong>
+<ul>
+<li>⚡ Actividad 1: Bienvenida y Calentamiento Cerebral</li>
+<li>⚡ Actividad 2: Planteamiento del Reto y Cuento</li>
+<li>⚡ Actividad 3: ¡Manos a la Obra! (Actividad Principal)</li>
+<li>⚡ Actividad 4: Puesta en Común y Cierre de la Misión</li>
+</ul>
+<strong>Entregable Clave:</strong>
+<ul>
+<li>Creación y verbalización de un 'programa' lógico de al menos 3 pasos para una tarea específica, demostrando colaboración en equipo.</li>
+</ul>
+</td>
+<td>
+<strong>Materiales Específicos:</strong>
+<ul>
+<li>Figuras del Set de Personas.</li>
+<li>Escenarios construidos con LEGO Duplo (una casa, un parque).</li>
+<li>Objetos pequeños (un bloque que simula pan).</li>
+</ul>
+<strong>Preparación Previa para ESTA Sesión:</strong>
+<ol>
+<li><strong>Revisión de Materiales:</strong> Asegurar que todos los materiales estén completos, limpios y listos para ser repartidos.</li>
+<li><strong>Preparación del Espacio:</strong> Organizar el aula para facilitar la actividad (círculo en el suelo, mesas de trabajo, espacio para moverse).</li>
+<li><strong>Familiarización:</strong> Leer el playbook completo para entender el flujo narrativo, los diálogos y las transiciones. Tener clara la historia o el reto que se presentará.</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="activity-card" id="activity-1">
+<h2>⚡ Actividad 1: ¡Calentamiento de Programadores: Mímica de Héroes! ⏰ 5 min</h2>
+<p>Activamos nuestro cuerpo y mente adivinando profesiones, ¡como los personajes que pronto programaremos!</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: ¡A Mover el Esqueleto y Adivinar! ⏰ 2 min (Proyectar Diapositiva 1)</h3>
+<p>Dirige el juego de mímica "Los oficios". Inicia la actividad con energía y entusiasmo para captar la atención de los niños desde el primer momento. Explica brevemente que van a jugar a adivinar, ¡como si fueran detectives de las profesiones!</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Hola, hola, mis pequeños y grandes programadores! ¡Qué emoción tenerlos aquí listos para una nueva aventura! Hoy vamos a empezar calentando nuestros motores de la imaginación con un juego padrísimo. ¿Están listos para adivinar? ¡Vamos a ver qué tan buenos son para la mímica y para reconocer a nuestros héroes de la comunidad! ¡Pongan atención!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: ¡Mímica con Nuestras Figuras! ⏰ 3 min (Proyectar Diapositiva 2)</h3>
+<p>Muestra las figuras del Set de Personas una por una y realiza una mímica sencilla de la profesión que representa. Invita a los niños a adivinar y a imitar los movimientos. Asegúrate de que todos tengan la oportunidad de participar y adivinar.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Muy bien! Miren esta figura [muestra una figura, ej. el bombero]. ¿Qué creen que hace un bombero? ¡A ver, a ver, vamos a hacer como si estuviéramos apagando un fuego! [Haz la mímica]. ¡Sí, un bombero! ¡Excelente! Ahora, ¿qué tal este? [Muestra otra figura, ej. el doctor]. ¿Qué hace el doctor? ¡A ver cómo nos revisa la garganta! [Haz la mímica]. ¡Exacto! ¡Son unos genios adivinando! ¡Todos tienen mucha energía y están listos para la siguiente misión!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-2">
+<h2>⚡ Actividad 2: El Misterio del Panadero: ¡Nuestro Primer Reto! ⏰ 5 min</h2>
+<p>Descubrimos un reto divertido que nos ayudará a entender qué es un 'programa' y por qué es tan importante.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Presentando el Desafío del Panadero ⏰ 2 min (Proyectar Diapositiva 3)</h3>
+<p>Presenta a los niños el reto del panadero de forma narrativa y emocionante. Utiliza las figuras del Set de Personas y los materiales (el panadero, el bloque que simula pan, la casa de LEGO Duplo) para crear una escena visual y concreta.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Excelente trabajo adivinando! Ahora, ¡atención, atención! Tengo un misterio que resolver y necesito de su ayuda. Miren, aquí está nuestro amigo el panadero [muestra figura del panadero] y tiene una misión muy importante: ¡llevar este pan delicioso a la casa! [muestra bloque de pan y la casa de LEGO Duplo]. Pero, ¡oh, no! El panadero no sabe cómo llegar. ¡Está un poquito confundido!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: Creando el "Programa" para el Panadero ⏰ 3 min (Proyectar Diapositiva 4)</h3>
+<p>Guía la discusión sobre los pasos necesarios para que el panadero lleve el pan a la casa. Haz preguntas abiertas que fomenten la secuencia y la lógica. Anima a los niños a verbalizar los pasos, incluso si son solo uno o dos al principio.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Ustedes son los expertos en crear 'programas', así que díganme, ¿cuál sería el 'programa' perfecto para que el panadero llegue a su destino? ¿Qué es lo primero que tiene que hacer el panadero? [Espera respuestas como "caminar", "ir"]. ¡Sí! ¿Y después de caminar, qué hace? [Espera "llegar a la casa", "tocar la puerta"]. ¡Genial! Entonces, nuestro programa es: 1. El panadero camina. 2. El panadero llega a la casa. ¡Lo hicieron muy bien! ¡Hemos creado nuestro primer programa!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-3">
+<h2>⚡ Actividad 3: ¡Manos a la Obra: Programando Aventuras en la Comunidad! ⏰ 25 min</h2>
+<p>En equipos, crearemos historias increíbles y los 'programas' perfectos para que nuestros personajes logren sus misiones.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: ¡Formando Equipos y Eligiendo Misión! ⏰ 5 min (Proyectar Diapositiva 5)</h3>
+<p>Organiza a los niños en equipos pequeños (2-3 niños). Explica con claridad la tarea: cada equipo elegirá dos figuras del Set de Personas y un escenario (casa, parque) para crear una mini historia y el 'programa' verbal de 3-4 pasos para que un personaje realice una tarea específica. Asegúrate de que cada equipo tenga acceso a los materiales.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Bravo, ya están listísimos para el siguiente paso de nuestra misión! ¡Atención, programadores! ¡Sus figuras necesitan un programa para ayudar a la comunidad! ¡Manos a la obra! Ahora, vamos a formar equipos de súper ingenieros. Cada equipo va a elegir a dos amigos del Set de Personas y un lugar especial, como la casa o el parque. ¡Van a inventar una historia donde su personaje necesite un 'programa' para lograr algo grandioso! Por ejemplo, "Para que el bombero rescate al gato: 1. Camina a la escalera. 2. Sube la escalera. 3. Toma al gato". ¿Listos para la aventura?</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: Creando Nuestro Programa Perfecto ⏰ 15 min (Proyectar Diapositiva 6)</h3>
+<p>Circula entre los equipos, ofreciendo apoyo y haciendo preguntas para guiar la creación de sus programas. Anima la colaboración y la creatividad. Ayuda a los niños a pensar en los pasos de manera secuencial y lógica. Si un grupo tiene dificultades, puedes sugerir un inicio ("¿Qué es lo primero que hace tu personaje?").</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Wow, qué historias tan padres están creando! Recuerden, un buen programa tiene pasos muy claros, uno después del otro. ¿Qué es lo primero que hace su personaje? ¿Y luego qué? ¡Piensen como ingenieros! ¡Qué gran idea! Si el bombero necesita rescatar al gatito del árbol, ¿cuál es el primer paso? ¿Y el segundo? ¡A seguir programando con muchísima creatividad!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 3: Refinando los Pasos y la Precisión ⏰ 5 min (Proyectar Diapositiva 7)</h3>
+<p>Continúa circulando, ayudando a los equipos a refinar sus programas, asegurándose de que los pasos sean precisos y que la secuencia sea lógica. Pregunta sobre las consecuencias si un paso se omite. Refuerza la importancia de cada detalle para que el "programa" funcione correctamente.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Fantástico! Ya casi tienen el programa perfecto. A ver, ¿qué creen que pasaría si el bombero se salta el paso de subir la escalera? ¡Uy, no podría alcanzar al gatito! ¿Verdad? Por eso cada paso es súper importante. ¡Asegúrense de que todos los pasos estén en el orden correcto para que la misión sea un éxito! ¿Todos están de acuerdo con los pasos de su programa?</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-4">
+<h2>⚡ Actividad 4: ¡Misión Cumplida! Compartiendo Nuestras Creaciones! ⏰ 5 min</h2>
+<p>Es hora de mostrar al mundo nuestros programas y celebrar todo lo que aprendimos y creamos juntos.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: ¡Es Hora de Presentar los Programas! ⏰ 3 min (Proyectar Diapositiva 8)</h3>
+<p>Invita a algunos equipos (al menos 2-3 si el tiempo lo permite) a compartir su historia y 'leer' su programa en voz alta. Anímales a mover las figuras siguiendo los pasos de su programa. Modera la participación de manera equitativa y fomenta el aplauso y reconocimiento de los compañeros.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡El tiempo vuela cuando nos divertimos programando! ¡Felicidades, equipos! Ahora es el momento más emocionante: ¡compartir nuestras obras maestras! ¿Quién quiere ser el primer equipo en mostrarnos su historia y su 'programa' especial? ¡Recuerden mover sus figuras mientras nos cuentan los pasos! ¡Vamos a aplaudir a todos los valientes programadores que nos compartan su aventura!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: Reflexión y Celebración: ¡Programadores Estrellas! ⏰ 2 min (Proyectar Diapositiva 9)</h3>
+<p>Concluye la sesión con preguntas de reflexión para reforzar el aprendizaje clave. Felicita a todos por su esfuerzo, creatividad y colaboración. Asegúrate de que la sesión termine con una nota muy positiva y motivadora.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Qué programas tan geniales y qué historias tan divertidas! ¡Misión cumplida, equipo de TECH4GOOD! Hoy aprendimos que para que algo funcione muy bien, ¡necesitamos pasos claros y ordenados, como un programa! ¿Qué fue lo que más les gustó de programar con sus amigos y sus figuras? [Espera algunas respuestas]. ¡Son unos ingenieros de la imaginación de primera! ¡Un aplauso enorme para todos ustedes! ¡Lo hicieron increíble!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+<script src="script.js"></script>
 </body>
-
 </html>
